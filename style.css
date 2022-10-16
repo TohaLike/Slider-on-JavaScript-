@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+
+.main__slide {
+    width: 550px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    user-select: none;
+}
+
+.slide__text {
+    margin: 0;
+}
+
+.slider {
+    width: 550px;
+    height: 220px;
+    border: 3px solid #000;
+    display: flex;
+    margin-top: 320px;
+    margin-left: 660px;
+    overflow: hidden;
+    position: relative;
+}
+
+.button__section {
+    position: absolute;
+    top: 95px;
+}
+
+.btn__back {
+    position: absolute;
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    transition: 0.4s ease;
+    visibility: hidden;
+}
+
+.btn__go {
+    position: absolute;
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    left: 514px;
+    transition: 0.4s ease;
+}
+
+.btn__back:hover {
+    color: #fff;
+    visibility: hidden;
+}
+
+.btn__go:hover {
+    color: #fff;
+}
+
+.slider__content {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.slide__one {
+    border-right: 2px solid #000;
+    background: radial-gradient(circle, rgba(62,26,172,1) 0%, rgba(29,195,196,1) 100%);
+}
+
+.slide__two {
+    border-right: 2px solid #000;
+    background:  radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.slide__three {
+    border-right: 2px solid #000;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+}
+
+.slide__four {
+    border-right: 2px solid #000;
+    background: radial-gradient(circle, rgba(251,2,111,1) 0%, rgba(37,236,234,1) 100%);;
+}
+
+.slide__five {
+    background: radial-gradient(circle, rgba(2,251,236,1) 0%, rgba(77,37,236,1) 100%);;
+}
+
+
+
